@@ -2,9 +2,6 @@
 :: but it could easily be ported to a Linux shell script
 :: or build task
 
-@echo off
-
-
 mkdir "slim" 2>nul
 
 echo Building FAST slim version...
@@ -22,4 +19,4 @@ copy /Y PNGEncoder2.swc slim\PNGEncoder2_good.swc >nul
 echo Building full version...
 haxe PNGEncoder2.hxml
 
-rem pause
+pause
